@@ -1,4 +1,4 @@
-## Secret Santa Crypto.com Scrypt
+# Secret Santa Crypto.com Scrypt
 
 ![0](https://raw.githubusercontent.com/alessandroiori/secret_santa_crypto_com_script/master/img/0.png)
 
@@ -7,4 +7,12 @@
 ![2](https://raw.githubusercontent.com/alessandroiori/secret_santa_crypto_com_script/master/img/2.png)
 
 ![3](https://raw.githubusercontent.com/alessandroiori/secret_santa_crypto_com_script/master/img/3.png)
-# secret_santa_crypto_com_script
+
+## How to run
+* $ python3 double_click_me.py
+
+## How to create double click app
+1. $ pip3 install pyinstaller
+2. $ pyinstaller --onefile double_click_me.py
+3. Get exe form dist/ folder
+

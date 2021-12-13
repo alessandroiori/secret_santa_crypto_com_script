@@ -8,7 +8,7 @@ $ python3 secret_santa_script.py
 create exe file:
 1. $ pip3 install pyinstaller
 2. $ pyinstaller --onefile double_click_me.py
-3. get exe form dist/ folder
+3. get exe file form dist/ folder
 
 '''
 from os import system, name
@@ -132,9 +132,3 @@ print_with_delay("Do you want to be redirected to the referral link? y/n\n")
 input_function()
 webbrowser.open("https://crypto.com/app/ytpdmwkx9u")
 print("bye bye\n")
-
-
-
-
-
-
