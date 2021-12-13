@@ -1,4 +1,4 @@
-# Secret Santa Crypto.com Scrypt
+# Secret Santa Crypto.com Script
 
 ## Run
 * $ python3 double_click_me.py
