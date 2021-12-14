@@ -14,7 +14,10 @@ create exe file:
 from os import system, name
 import sys, time
 import webbrowser
- 
+
+referral_code = "ytpdmwkx9u"
+referral_link = "https://crypto.com/app/" + referral_code
+
 def print_with_delay(string_to_print): 
     for char in string_to_print: 
         print(char, end='') 
@@ -42,9 +45,20 @@ def clear():
     else:
         _ = system('clear')
 
-# https://patorjk.com/software/taag/#p=testall&h=0&f=Abraxis-Big&t=CRO
+# https://patorjk.com/software/taag/
 
-clear()
+str_00 = """
+
+  ______   _______  __      __  _______  ________   ______  
+ /      \ |       \|  \    /  \|       \|        \ /      \ 
+|  $$$$$$\| $$$$$$$\\$$\  /  $$| $$$$$$$\\$$$$$$$$|  $$$$$$\\
+| $$   \$$| $$__| $$ \$$\/  $$ | $$__/ $$  | $$   | $$  | $$
+| $$      | $$    $$  \$$  $$  | $$    $$  | $$   | $$  | $$
+| $$   __ | $$$$$$$\   \$$$$   | $$$$$$$   | $$   | $$  | $$
+| $$__/  \| $$  | $$   | $$    | $$        | $$   | $$__/ $$
+ \$$    $$| $$  | $$   | $$    | $$        | $$    \$$    $$
+  \$$$$$$  \$$   \$$    \$$     \$$         \$$     \$$$$$$ 
+"""
 
 str_01 = """
 
@@ -83,21 +97,6 @@ str_03 = """
   \$$$$$$  \$$   \$$ \$$   \$$    \$$    \$$   \$$
 """
 
-print(str_01)
-time.sleep(1)
-print(str_02)
-time.sleep(1)
-print(str_03)
-
-
-str_1 = "\n16.12.2021 - Filo Secret Santa for Renie\n"
-print_with_delay(str_1)
-
-str_2 = "Do you want to know your gift? y/n\n"
-print_with_delay(str_2)
-input_function()
-clear()
-
 str_31 = """
 
    /$$    /$$$$$$        /$$$$$$$$ /$$   /$$ /$$$$$$$ 
@@ -119,16 +118,32 @@ str_32 = """
 |  $$$$$$/| $$  | $$|  $$$$$$/
  \______/ |__/  |__/ \______/ 
 """
+
+clear()
+print(str_00)
+time.sleep(1)
+print(str_02)
+time.sleep(1)
+print(str_03)
+
+str_1 = "\n16.12.2021 - Filo Secret Santa for Renie.\n"
+print_with_delay(str_1)
+
+str_2 = "Do you want to know your gift? y/n\n"
+print_with_delay(str_2)
+input_function()
+clear()
+
 print(str_31)
 print(str_32)
 print_with_delay("You have received €10 in CRO cryptocurrency!\n\n")
 print_with_delay("How to get them:\n")
-print_with_delay("1. Use the referral link https://crypto.com/app/ytpdmwkx9u to register at Crypto.com (*)\n")
+print_with_delay("1. Use the referral link " + referral_link + " to register at Crypto.com (*)\n")
 print_with_delay("2. Register and wait ~24 hours for your account validation\n")
 print_with_delay("3. Once validated, communicate in the Filo Coders group the email and phone number used for registration\n")
 print_with_delay("4. Receive the equivalent of €10 in CRO\n")
-print_with_delay("(*) The referral code ytpdmwkx9u allows you to obtain an additional $25 USD\n\n")
+print_with_delay("(*) The referral code " + referral_code + " allows you to obtain an additional $25 USD\n\n")
 print_with_delay("Do you want to be redirected to the referral link? y/n\n")
 input_function()
-webbrowser.open("https://crypto.com/app/ytpdmwkx9u")
-print("bye bye\n")
+webbrowser.open(referral_link)
+print_with_delay("bye bye\n")
