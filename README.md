@@ -1,5 +1,11 @@
 # Secret Santa Crypto.com Script
 
+Why this script:
+1. I wanted to give crypto to a colleague for the Secret Santa
+2. I was looking for something more geeky than an email
+
+Taag font source: https://patorjk.com/software/taag/
+
 ## Run
 * $ python3 double_click_me.py
 
